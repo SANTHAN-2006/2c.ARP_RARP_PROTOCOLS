@@ -18,7 +18,7 @@ stored.
 P
 ## PROGRAM - ARP :
 
-## Client.py :
+## Server.py :
 
 ```python
 import socket 
@@ -34,7 +34,7 @@ while True:
             except KeyError: 
                 c.send("Not Found".encode())
 ```
-## Server.py :
+## Client.py :
 
 ```python
 import socket
